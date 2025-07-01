@@ -1,0 +1,9 @@
+version: 2
+
+seeds:
+  - name: countries_codes
+    description: "A list of country codes and their details"
+    columns:
+      - name: country
+        tests:
+          - not_null
